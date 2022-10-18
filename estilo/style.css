@@ -47,6 +47,7 @@ header h1{
     color:var(--cor7);
     font-size: 2.2em;
     font-weight: normal;
+    padding-bottom:20px;
     
 }
 header p {
@@ -55,7 +56,7 @@ header p {
     font-size: 1.1em;
     max-width:500px;
     margin: auto;
-    padding: 0px 10px 50px 10px;
+    padding: 0px 10px 30px 10px;
 
     
 }
@@ -132,8 +133,8 @@ main a{
     text-decoration:none;
     color:var(--cor7);
     font-weight:normal;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 1px 3px 1px 3px;
+    border-radius: 100px;
     font-family: var(--fonte-kanit);
 
     

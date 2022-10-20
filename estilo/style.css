@@ -75,10 +75,10 @@ nav a{
 }
 nav a:hover{
     text-decoration: underline;
-    background-color: var(--cor3);
+    color: var(--cor3);
     border-radius: 5px;
     padding:5px;
-    color:var(--cor7);
+    
 }
 main{
     padding: 0px 20px 20px 20px;
@@ -196,4 +196,21 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+@media all and (max-width: 510px) {
+   nav{
+    display: flex;
+    flex-direction: column;
+   }
+   main h1,h2{
+    text-align: center;
+   }
+   aside h3{
+    text-align: center;
+   }
+   aside ul{
+    display: flex;
+    flex-direction: column;
+    columns:1;
+  }
 }
